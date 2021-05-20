@@ -3,10 +3,7 @@ package com.didimstory.mvvmtest.data.repository
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.didimstory.mvvmtest.data.api.TheMovieDBInterface
-import com.didimstory.mvvmtest.data.vo.MovieDetails
-import io.reactivex.Scheduler
 import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.internal.disposables.ArrayCompositeDisposable
 import io.reactivex.schedulers.Schedulers
 
 //CompositeDisposable : disposable 전부 삭제 가능
